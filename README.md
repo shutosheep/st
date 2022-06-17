@@ -4,11 +4,22 @@ This is my personal [st](https://st.suckless.org/) fork with some patches applie
 
 ## Features
 
-+ scrollback with `Shift-PageUp/Down` or `Shift-MouseWheel`
-+ spawn new terminal which will have the same current working directory with `Ctrl-Shift-Return`
-+ [gruvbox](https://github.com/morhetz/gruvbox) colors
-+ added support for background transparency (note that it requires X composite manager like [picom](https://github.com/yshui/picom))
-+ minor visual improvments
++ Scrollback with `Shift-PageUp/Down` or `Shift-MouseWheel`
++ Spawn new terminal which will have the same current working directory with `Ctrl-Shift-Return`
++ [Gruvbox](https://github.com/morhetz/gruvbox) colors
++ Supports background transparency (note that it requires X composite manager like [picom](https://github.com/yshui/picom))
++ Minor visual improvments
+
+## Installation
+
+```
+git clone https://github.com/shutosheep/st.git
+cd st
+cp config.def.h config.h
+sudo make clean install
+```
+
+Configuration is done with `config.h`. Default values are stored in `config.def.h`.
 
 ## Applied patches
 
