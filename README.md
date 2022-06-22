@@ -6,7 +6,8 @@ This is my personal [st](https://st.suckless.org/) fork with some patches applie
 
 + Scrollback with `Shift-PageUp/Down` or `Shift-MouseWheel`
 + Spawn new terminal which will have the same current working directory with `Ctrl-Shift-Return`
-+ [Gruvbox](https://github.com/morhetz/gruvbox) colors
++ [Gruvbox](https://github.com/morhetz/gruvbox) colors by default
++ Configure dynamically with Xresources values (will override default gruvbox colors)
 + Supports background transparency (note that it requires X composite manager like [picom](https://github.com/yshui/picom))
 + Minor visual improvments
 
@@ -31,3 +32,4 @@ Configuration is done with `config.h`. Default values are stored in `config.def.
 + [gruvbox](https://st.suckless.org/patches/gruvbox/)
 + [newterm](https://st.suckless.org/patches/newterm/)
 + [scrollback](https://st.suckless.org/patches/scrollback/)
++ [xresources](https://st.suckless.org/patches/xresources/)
