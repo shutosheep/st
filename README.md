@@ -27,7 +27,7 @@ Configuration is done with `config.h`. Default values are stored in `config.def.
 + [alpha](http://st.suckless.org/patches/alpha/)
 + [boxdraw](https://st.suckless.org/patches/boxdraw/)
 + [clipboard](https://st.suckless.org/patches/clipboard/)
-+ [dynamic-cursor-color](https://st.suckless.org/patches/dynamic-cursor-color/)
++ [externalpipe](https://st.suckless.org/patches/externalpipe/)
 + [font2](https://st.suckless.org/patches/font2/)
 + [gruvbox](https://st.suckless.org/patches/gruvbox/)
 + [newterm](https://st.suckless.org/patches/newterm/)
